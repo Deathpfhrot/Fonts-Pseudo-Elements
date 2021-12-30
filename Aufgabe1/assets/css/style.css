@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ole&display=swap');
+
+
+@font-face {
+    font-family: Japanese;
+    src: url(../font/Noto_Sans_JP/NotoSansJP-Medium.otf);
+}
+
+@font-face {
+    font-family: Shizu;
+    src: url(../font/Shizuru/Shizuru-Regular.ttf);
+}
+
+@font-face {
+    font-family: Giant;
+    src: url(../font/the_giant_and_the_mouse/The\ Giant\ and\ the\ Mouse.ttf);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(150, 148, 148);
+    font-family: 'Pushster', cursive;
+}
+
+section>p{
+    font-family: 'Licorice', cursive;
+}
+
+main>p{
+    font-family: Japanese;
+}
+
+aside > p{
+    font-family: Shizu;
+}
+
+nav > p {
+    font-family: Giant;
+}
+
+footer > p {
+    font-family: 'Ole', cursive;
+}

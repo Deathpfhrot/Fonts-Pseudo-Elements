@@ -1,0 +1,52 @@
+h3::first-letter{
+    font-size: 3em;
+    color: green;
+}
+
+h3:hover::first-letter{
+    color: blue;
+}
+
+ul:nth-of-type(1) li:nth-of-type(1)::first-letter{
+    color: #4fc3f7;
+    font-size: 2em;
+    text-decoration: overline;
+}
+
+ul:nth-of-type(1) li:nth-of-type(2)::first-letter{
+    color: #c51162;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+ul:nth-of-type(1) li:last-child::first-letter{
+    color: #64dd17;
+    font-size: 2em;
+    text-decoration: line-through;
+}
+
+section:nth-of-type(1) p:nth-of-type(1){
+    color: #37474f;
+    text-indent: 50px;
+}
+
+section:nth-of-type(1) p:nth-of-type(1)::first-line{
+    font-size: 1.3em;
+}
+
+p:not(:nth-of-type(1))::first-letter{
+    color: red;
+    font-size: 1.5em;
+}
+
+p:not(:nth-of-type(1))::first-line{
+    color: green;
+}
+
+p:not(:nth-of-type(1)):hover::first-line{
+    color: #303f9f;
+}
+
+p:nth-of-type(even){
+    font-weight: 600;
+}

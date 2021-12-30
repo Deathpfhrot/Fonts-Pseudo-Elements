@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat/Montserrat-Black.ttf);
+}
+
+p{
+    font-family: Montserrat;
+    font-size: 20px;
+}
